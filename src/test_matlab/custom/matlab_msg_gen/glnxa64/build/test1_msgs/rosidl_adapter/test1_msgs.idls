@@ -1,2 +1,2 @@
-/home/jkang/ros2_workspace/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_adapter/test1_msgs:msg/Test.idl
-/home/jkang/ros2_workspace/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_adapter/test1_msgs:srv/FindNorm.idl
+/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_adapter/test1_msgs:msg/Test.idl
+/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_adapter/test1_msgs:srv/FindNorm.idl

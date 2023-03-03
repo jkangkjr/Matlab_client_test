@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/jkang/ros2_workspace/src/test_matlab/custom/matlab_msg_gen/glnxa64/install"}
+: ${AMENT_CURRENT_PREFIX:="/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

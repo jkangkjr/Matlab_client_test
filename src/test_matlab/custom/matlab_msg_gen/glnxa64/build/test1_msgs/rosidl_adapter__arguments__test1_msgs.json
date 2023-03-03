@@ -1,7 +1,7 @@
 {
   "package_name": "test1_msgs",
   "non_idl_tuples": [
-    "/home/jkang/ros2_workspace/src/test_matlab/custom/matlab_msg_gen/glnxa64/src/test1_msgs:msg/Test.msg",
-    "/home/jkang/ros2_workspace/src/test_matlab/custom/matlab_msg_gen/glnxa64/src/test1_msgs:srv/FindNorm.srv"
+    "/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/src/test1_msgs:msg/Test.msg",
+    "/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/src/test1_msgs:srv/FindNorm.srv"
   ]
 }

@@ -1,0 +1,326 @@
+[0.000000] (-) TimerEvent: {}
+[0.000093] (test1_msgs) JobQueued: {'identifier': 'test1_msgs', 'dependencies': OrderedDict()}
+[0.000117] (test1_msgs) JobStarted: {'identifier': 'test1_msgs'}
+[0.017186] (test1_msgs) JobProgress: {'identifier': 'test1_msgs', 'progress': 'cmake'}
+[0.017252] (test1_msgs) Command: {'cmd': ['/home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin/cmake', '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/src/test1_msgs', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_INSTALL_PREFIX=/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install'], 'cwd': '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'glnxa64'), ('USER', 'jkang'), ('LOCAL_PYTHON_VENV_PATH', '/home/jkang/.matlab/R2022b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('SSH_AGENT_PID', '1792'), ('XDG_SESSION_TYPE', 'x11'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '2'), ('ICU_TIMEZONE_FILES_DIR', '/home/jkang/MATLAB/R2022b/bin/icutzdata'), ('LD_LIBRARY_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib:/home/jkang/MATLAB/R2022b/sys/opengl/lib/glnxa64:/home/jkang/MATLAB/R2022b/sys/os/glnxa64:/home/jkang/MATLAB/R2022b/bin/glnxa64:/home/jkang/MATLAB/R2022b/extern/lib/glnxa64:/home/jkang/MATLAB/R2022b/cefclient/sys/os/glnxa64:/home/jkang/MATLAB/R2022b/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/home/jkang/MATLAB/R2022b/sys/java/jre/glnxa64/jre/lib/amd64/server:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BASEMATLABPATH', ''), ('HOME', '/home/jkang'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/home/jkang/MATLAB/R2022b'), ('DESKTOP_SESSION', 'ubuntu'), ('MW_LD_SHIM', '/home/jkang/MATLAB/R2022b/bin/glnxa64/ld_shim.so.2.31'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', ''), ('KMP_BLOCKTIME', '1'), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('MANAGERPID', '1562'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'jkang'), ('JOURNAL_STREAM', '8:44788'), ('_', '/home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jkang'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin:/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/bin:/home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin:/home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin:/home/jkang/MATLAB/R2022b/toolbox/shared/coder/ninja/glnxa64:/opt/ros/galactic/bin:/home/jkang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jkang-Legion-Y7000P-2019:@/tmp/.ICE-unix/1830,unix/jkang-Legion-Y7000P-2019:/tmp/.ICE-unix/1830'), ('INVOCATION_ID', '161354f5dd6a43ef86495349adda0046'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a6ff1f65_73a3_48e1_b83c_87a466e6942b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/home/jkang/MATLAB/R2022b/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':1'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('RMW_IMPLEMENTATION', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.326'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/home/jkang/MATLAB/R2022b/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('OSG_LD_LIBRARY_PATH', '/home/jkang/MATLAB/R2022b/sys/openscenegraph/lib/glnxa64'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/jkang/.matlab/R2022b/ros2/glnxa64/venv'), ('KMP_STACKSIZE', '512k'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DYLD_LIBRARY_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000104000000050'), ('__KMP_REGISTERED_LIB_133766', '0x7f641e76f708-cafe51f8-libiomp5.so'), ('PYTHONPATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/jkang/.matlab/R2022b/ros2/glnxa64/venv/lib/python3.9/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[0.077095] (test1_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099401] (-) TimerEvent: {}
+[0.128988] (test1_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.136569] (test1_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.178373] (test1_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.184758] (test1_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.185064] (test1_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.185472] (test1_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.188506] (test1_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199505] (-) TimerEvent: {}
+[0.248242] (test1_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.258105] (test1_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.258356] (test1_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.258925] (test1_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.263565] (test1_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)\n'}
+[0.286795] (test1_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin/python3 (found suitable version "3.9.5", minimum required is "3") \n'}
+[0.286940] (test1_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin/python3\n'}
+[0.299624] (-) TimerEvent: {}
+[0.399914] (-) TimerEvent: {}
+[0.448519] (test1_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)\n'}
+[0.456349] (test1_msgs) StdoutLine: {'line': b'-- Found rosidl_typesupport_c: 1.0.2 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)\n'}
+[0.457054] (test1_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.463566] (test1_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)\n'}
+[0.500021] (-) TimerEvent: {}
+[0.513955] (test1_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/include  \n'}
+[0.587406] (test1_msgs) StdoutLine: {'line': b'-- Found rosidl_typesupport_cpp: 1.0.2 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)\n'}
+[0.588070] (test1_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600138] (-) TimerEvent: {}
+[0.607030] (test1_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)\n'}
+[0.611231] (test1_msgs) StdoutLine: {'line': b'-- Found class_loader: 2.0.2 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/class_loader/cmake)\n'}
+[0.617013] (test1_msgs) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)\n'}
+[0.665489] (test1_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)\n'}
+[0.667039] (test1_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.668478] (test1_msgs) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700275] (-) TimerEvent: {}
+[0.711533] (test1_msgs) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.711774] (test1_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.756729] (test1_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.757141] (test1_msgs) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.799480] (test1_msgs) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.799763] (test1_msgs) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.800388] (-) TimerEvent: {}
+[0.882958] (test1_msgs) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.885448] (test1_msgs) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900542] (-) TimerEvent: {}
+[0.999880] (test1_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin/python3 (found version "3.9.5") \n'}
+[1.000646] (-) TimerEvent: {}
+[1.100862] (-) TimerEvent: {}
+[1.166375] (test1_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.171971] (test1_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.180725] (test1_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.198474] (test1_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.200969] (-) TimerEvent: {}
+[1.207157] (test1_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs\n'}
+[1.213251] (test1_msgs) CommandEnded: {'returncode': 0}
+[1.215236] (test1_msgs) JobProgress: {'identifier': 'test1_msgs', 'progress': 'build'}
+[1.215384] (test1_msgs) Command: {'cmd': ['/home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin/cmake', '--build', '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs', '--', '-j12', '-l12'], 'cwd': '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'glnxa64'), ('USER', 'jkang'), ('LOCAL_PYTHON_VENV_PATH', '/home/jkang/.matlab/R2022b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('SSH_AGENT_PID', '1792'), ('XDG_SESSION_TYPE', 'x11'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '2'), ('ICU_TIMEZONE_FILES_DIR', '/home/jkang/MATLAB/R2022b/bin/icutzdata'), ('LD_LIBRARY_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib:/home/jkang/MATLAB/R2022b/sys/opengl/lib/glnxa64:/home/jkang/MATLAB/R2022b/sys/os/glnxa64:/home/jkang/MATLAB/R2022b/bin/glnxa64:/home/jkang/MATLAB/R2022b/extern/lib/glnxa64:/home/jkang/MATLAB/R2022b/cefclient/sys/os/glnxa64:/home/jkang/MATLAB/R2022b/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/home/jkang/MATLAB/R2022b/sys/java/jre/glnxa64/jre/lib/amd64/server:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BASEMATLABPATH', ''), ('HOME', '/home/jkang'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/home/jkang/MATLAB/R2022b'), ('DESKTOP_SESSION', 'ubuntu'), ('MW_LD_SHIM', '/home/jkang/MATLAB/R2022b/bin/glnxa64/ld_shim.so.2.31'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', ''), ('KMP_BLOCKTIME', '1'), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('MANAGERPID', '1562'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'jkang'), ('JOURNAL_STREAM', '8:44788'), ('_', '/home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jkang'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin:/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/bin:/home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin:/home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin:/home/jkang/MATLAB/R2022b/toolbox/shared/coder/ninja/glnxa64:/opt/ros/galactic/bin:/home/jkang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jkang-Legion-Y7000P-2019:@/tmp/.ICE-unix/1830,unix/jkang-Legion-Y7000P-2019:/tmp/.ICE-unix/1830'), ('INVOCATION_ID', '161354f5dd6a43ef86495349adda0046'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a6ff1f65_73a3_48e1_b83c_87a466e6942b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/home/jkang/MATLAB/R2022b/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':1'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('RMW_IMPLEMENTATION', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.326'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/home/jkang/MATLAB/R2022b/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('OSG_LD_LIBRARY_PATH', '/home/jkang/MATLAB/R2022b/sys/openscenegraph/lib/glnxa64'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/jkang/.matlab/R2022b/ros2/glnxa64/venv'), ('KMP_STACKSIZE', '512k'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DYLD_LIBRARY_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000104000000050'), ('__KMP_REGISTERED_LIB_133766', '0x7f641e76f708-cafe51f8-libiomp5.so'), ('PYTHONPATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/jkang/.matlab/R2022b/ros2/glnxa64/venv/lib/python3.9/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[1.301104] (-) TimerEvent: {}
+[1.401413] (-) TimerEvent: {}
+[1.438437] (test1_msgs) StdoutLine: {'line': b'[1/32] Generating C++ code for ROS interfaces\n'}
+[1.441853] (test1_msgs) StdoutLine: {'line': b'[2/32] Generating C code for ROS interfaces\n'}
+[1.491567] (test1_msgs) StdoutLine: {'line': b'[3/32] Building C object CMakeFiles/test1_msgs__rosidl_generator_c.dir/rosidl_generator_c/test1_msgs/msg/detail/test__functions.c.o\n'}
+[1.501542] (-) TimerEvent: {}
+[1.508632] (test1_msgs) StdoutLine: {'line': b'[4/32] Building C object CMakeFiles/test1_msgs__rosidl_generator_c.dir/rosidl_generator_c/test1_msgs/srv/detail/find_norm__functions.c.o\n'}
+[1.527001] (test1_msgs) StdoutLine: {'line': b'[5/32] Linking C shared library libtest1_msgs__rosidl_generator_c.so\n'}
+[1.601613] (-) TimerEvent: {}
+[1.624382] (test1_msgs) StdoutLine: {'line': b'[6/32] Generating C++ type support dispatch for ROS interfaces\n'}
+[1.637607] (test1_msgs) StdoutLine: {'line': b'[7/32] Generating C++ introspection for ROS interfaces\n'}
+[1.701713] (-) TimerEvent: {}
+[1.708086] (test1_msgs) StdoutLine: {'line': b'[8/32] Generating C type support dispatch for ROS interfaces\n'}
+[1.718145] (test1_msgs) StdoutLine: {'line': b'[9/32] Generating C++ type support for eProsima Fast-RTPS\n'}
+[1.730520] (test1_msgs) StdoutLine: {'line': b'[10/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/test1_msgs/msg/test__type_support.cpp.o\n'}
+[1.740906] (test1_msgs) StdoutLine: {'line': b'[11/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/test1_msgs/srv/find_norm__type_support.cpp.o\n'}
+[1.792700] (test1_msgs) StdoutLine: {'line': b'[12/32] Linking CXX shared library libtest1_msgs__rosidl_typesupport_c.so\n'}
+[1.801826] (-) TimerEvent: {}
+[1.857445] (test1_msgs) StdoutLine: {'line': b'[13/32] Generating C introspection for ROS interfaces\n'}
+[1.876986] (test1_msgs) StdoutLine: {'line': b'[14/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test1_msgs/srv/find_norm__type_support.cpp.o\n'}
+[1.888191] (test1_msgs) StdoutLine: {'line': b'[15/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test1_msgs/msg/detail/test__type_support.cpp.o\n'}
+[1.896772] (test1_msgs) StdoutLine: {'line': b'[16/32] Building C object CMakeFiles/test1_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test1_msgs/msg/detail/test__type_support.c.o\n'}
+[1.901932] (-) TimerEvent: {}
+[1.906876] (test1_msgs) StdoutLine: {'line': b'[17/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test1_msgs/srv/detail/find_norm__type_support.cpp.o\n'}
+[1.908852] (test1_msgs) StdoutLine: {'line': b'[18/32] Building C object CMakeFiles/test1_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test1_msgs/srv/detail/find_norm__type_support.c.o\n'}
+[1.924826] (test1_msgs) StdoutLine: {'line': b'[19/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test1_msgs/msg/test__type_support.cpp.o\n'}
+[1.935451] (test1_msgs) StdoutLine: {'line': b'[20/32] Linking C shared library libtest1_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.972882] (test1_msgs) StdoutLine: {'line': b'[21/32] Linking CXX shared library libtest1_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.001023] (test1_msgs) StdoutLine: {'line': b'[22/32] Linking CXX shared library libtest1_msgs__rosidl_typesupport_cpp.so\n'}
+[2.002041] (-) TimerEvent: {}
+[2.102285] (-) TimerEvent: {}
+[2.133368] (test1_msgs) StdoutLine: {'line': b'[23/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test1_msgs/msg/detail/dds_fastrtps/test__type_support.cpp.o\n'}
+[2.157897] (test1_msgs) StdoutLine: {'line': b'[24/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test1_msgs/srv/detail/dds_fastrtps/find_norm__type_support.cpp.o\n'}
+[2.202423] (-) TimerEvent: {}
+[2.260345] (test1_msgs) StdoutLine: {'line': b'[25/32] Linking CXX shared library libtest1_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.302535] (-) TimerEvent: {}
+[2.402790] (-) TimerEvent: {}
+[2.455981] (test1_msgs) StdoutLine: {'line': b'[26/32] Generating C type support for eProsima Fast-RTPS\n'}
+[2.502921] (-) TimerEvent: {}
+[2.603179] (-) TimerEvent: {}
+[2.703423] (-) TimerEvent: {}
+[2.730687] (test1_msgs) StdoutLine: {'line': b'[27/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test1_msgs/msg/detail/test__type_support_c.cpp.o\n'}
+[2.743869] (test1_msgs) StdoutLine: {'line': b'[28/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test1_msgs/srv/detail/find_norm__type_support_c.cpp.o\n'}
+[2.803531] (-) TimerEvent: {}
+[2.844907] (test1_msgs) StdoutLine: {'line': b'[29/32] Linking CXX shared library libtest1_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.903661] (-) TimerEvent: {}
+[3.003996] (-) TimerEvent: {}
+[3.104248] (-) TimerEvent: {}
+[3.204506] (-) TimerEvent: {}
+[3.304766] (-) TimerEvent: {}
+[3.405043] (-) TimerEvent: {}
+[3.505330] (-) TimerEvent: {}
+[3.605593] (-) TimerEvent: {}
+[3.705853] (-) TimerEvent: {}
+[3.806152] (-) TimerEvent: {}
+[3.906445] (-) TimerEvent: {}
+[4.006722] (-) TimerEvent: {}
+[4.106980] (-) TimerEvent: {}
+[4.207201] (-) TimerEvent: {}
+[4.307453] (-) TimerEvent: {}
+[4.407774] (-) TimerEvent: {}
+[4.508128] (-) TimerEvent: {}
+[4.608394] (-) TimerEvent: {}
+[4.708653] (-) TimerEvent: {}
+[4.808913] (-) TimerEvent: {}
+[4.909188] (-) TimerEvent: {}
+[5.009486] (-) TimerEvent: {}
+[5.109748] (-) TimerEvent: {}
+[5.210008] (-) TimerEvent: {}
+[5.310305] (-) TimerEvent: {}
+[5.410562] (-) TimerEvent: {}
+[5.510861] (-) TimerEvent: {}
+[5.611136] (-) TimerEvent: {}
+[5.711401] (-) TimerEvent: {}
+[5.811665] (-) TimerEvent: {}
+[5.911889] (-) TimerEvent: {}
+[6.012176] (-) TimerEvent: {}
+[6.112440] (-) TimerEvent: {}
+[6.212698] (-) TimerEvent: {}
+[6.312951] (-) TimerEvent: {}
+[6.413221] (-) TimerEvent: {}
+[6.513474] (-) TimerEvent: {}
+[6.613736] (-) TimerEvent: {}
+[6.713951] (-) TimerEvent: {}
+[6.814227] (-) TimerEvent: {}
+[6.914483] (-) TimerEvent: {}
+[7.014735] (-) TimerEvent: {}
+[7.114992] (-) TimerEvent: {}
+[7.215297] (-) TimerEvent: {}
+[7.315559] (-) TimerEvent: {}
+[7.415814] (-) TimerEvent: {}
+[7.516069] (-) TimerEvent: {}
+[7.616321] (-) TimerEvent: {}
+[7.716655] (-) TimerEvent: {}
+[7.817059] (-) TimerEvent: {}
+[7.917301] (-) TimerEvent: {}
+[8.017561] (-) TimerEvent: {}
+[8.077550] (test1_msgs) StdoutLine: {'line': b'[30/32] Building CXX object CMakeFiles/test1_msgs_matlab.dir/src/test1_msgs_Test_message.cpp.o\n'}
+[8.117680] (-) TimerEvent: {}
+[8.217928] (-) TimerEvent: {}
+[8.318177] (-) TimerEvent: {}
+[8.418445] (-) TimerEvent: {}
+[8.518695] (-) TimerEvent: {}
+[8.618944] (-) TimerEvent: {}
+[8.719181] (-) TimerEvent: {}
+[8.819439] (-) TimerEvent: {}
+[8.919645] (-) TimerEvent: {}
+[9.019895] (-) TimerEvent: {}
+[9.120144] (-) TimerEvent: {}
+[9.220392] (-) TimerEvent: {}
+[9.320679] (-) TimerEvent: {}
+[9.420958] (-) TimerEvent: {}
+[9.521204] (-) TimerEvent: {}
+[9.621452] (-) TimerEvent: {}
+[9.721699] (-) TimerEvent: {}
+[9.821953] (-) TimerEvent: {}
+[9.922210] (-) TimerEvent: {}
+[10.022507] (-) TimerEvent: {}
+[10.122820] (-) TimerEvent: {}
+[10.182062] (test1_msgs) StdoutLine: {'line': b'[31/32] Building CXX object CMakeFiles/test1_msgs_matlab.dir/src/test1_msgs_FindNorm_service.cpp.o\n'}
+[10.222953] (-) TimerEvent: {}
+[10.323230] (-) TimerEvent: {}
+[10.423494] (-) TimerEvent: {}
+[10.523751] (-) TimerEvent: {}
+[10.611992] (test1_msgs) StdoutLine: {'line': b'[32/32] Linking CXX shared library libtest1_msgs_matlab.so\n'}
+[10.612999] (test1_msgs) CommandEnded: {'returncode': 0}
+[10.623925] (-) TimerEvent: {}
+[10.630268] (test1_msgs) JobProgress: {'identifier': 'test1_msgs', 'progress': 'install'}
+[10.634327] (test1_msgs) Command: {'cmd': ['/home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin/cmake', '--install', '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs'], 'cwd': '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'glnxa64'), ('USER', 'jkang'), ('LOCAL_PYTHON_VENV_PATH', '/home/jkang/.matlab/R2022b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('SSH_AGENT_PID', '1792'), ('XDG_SESSION_TYPE', 'x11'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '2'), ('ICU_TIMEZONE_FILES_DIR', '/home/jkang/MATLAB/R2022b/bin/icutzdata'), ('LD_LIBRARY_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib:/home/jkang/MATLAB/R2022b/sys/opengl/lib/glnxa64:/home/jkang/MATLAB/R2022b/sys/os/glnxa64:/home/jkang/MATLAB/R2022b/bin/glnxa64:/home/jkang/MATLAB/R2022b/extern/lib/glnxa64:/home/jkang/MATLAB/R2022b/cefclient/sys/os/glnxa64:/home/jkang/MATLAB/R2022b/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/home/jkang/MATLAB/R2022b/sys/java/jre/glnxa64/jre/lib/amd64/server:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BASEMATLABPATH', ''), ('HOME', '/home/jkang'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/home/jkang/MATLAB/R2022b'), ('DESKTOP_SESSION', 'ubuntu'), ('MW_LD_SHIM', '/home/jkang/MATLAB/R2022b/bin/glnxa64/ld_shim.so.2.31'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', ''), ('KMP_BLOCKTIME', '1'), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('MANAGERPID', '1562'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'jkang'), ('JOURNAL_STREAM', '8:44788'), ('_', '/home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jkang'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin:/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/bin:/home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin:/home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin:/home/jkang/MATLAB/R2022b/toolbox/shared/coder/ninja/glnxa64:/opt/ros/galactic/bin:/home/jkang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jkang-Legion-Y7000P-2019:@/tmp/.ICE-unix/1830,unix/jkang-Legion-Y7000P-2019:/tmp/.ICE-unix/1830'), ('INVOCATION_ID', '161354f5dd6a43ef86495349adda0046'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a6ff1f65_73a3_48e1_b83c_87a466e6942b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/home/jkang/MATLAB/R2022b/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':1'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('RMW_IMPLEMENTATION', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.326'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/home/jkang/MATLAB/R2022b/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('OSG_LD_LIBRARY_PATH', '/home/jkang/MATLAB/R2022b/sys/openscenegraph/lib/glnxa64'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/jkang/.matlab/R2022b/ros2/glnxa64/venv'), ('KMP_STACKSIZE', '512k'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DYLD_LIBRARY_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000104000000050'), ('__KMP_REGISTERED_LIB_133766', '0x7f641e76f708-cafe51f8-libiomp5.so'), ('PYTHONPATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/jkang/.matlab/R2022b/ros2/glnxa64/venv/lib/python3.9/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[10.636426] (test1_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[10.636722] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/test1_msgs\n'}
+[10.636930] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs\n'}
+[10.637033] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg\n'}
+[10.637101] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/test.h\n'}
+[10.637178] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.637230] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail\n'}
+[10.637303] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__functions.c\n'}
+[10.637368] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__functions.h\n'}
+[10.637433] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__type_support.h\n'}
+[10.637496] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__struct.h\n'}
+[10.637561] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv\n'}
+[10.637624] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail\n'}
+[10.637685] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__type_support.h\n'}
+[10.637742] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__struct.h\n'}
+[10.637791] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__functions.c\n'}
+[10.637853] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__functions.h\n'}
+[10.637920] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/find_norm.h\n'}
+[10.637970] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/environment/library_path.sh\n'}
+[10.638031] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/environment/library_path.dsv\n'}
+[10.638093] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_generator_c.so\n'}
+[10.638190] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs\n'}
+[10.638336] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg\n'}
+[10.638439] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail\n'}
+[10.638567] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__rosidl_typesupport_fastrtps_c.h\n'}
+[10.638645] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.638697] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv\n'}
+[10.638762] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail\n'}
+[10.638823] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__rosidl_typesupport_fastrtps_c.h\n'}
+[10.638908] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[10.638971] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs\n'}
+[10.639068] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg\n'}
+[10.639165] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail\n'}
+[10.639242] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.639306] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/dds_fastrtps\n'}
+[10.639381] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.639431] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv\n'}
+[10.639492] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail\n'}
+[10.639619] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.639707] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/dds_fastrtps\n'}
+[10.639775] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.639838] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs\n'}
+[10.639912] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg\n'}
+[10.639975] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.640037] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail\n'}
+[10.640098] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__rosidl_typesupport_introspection_c.h\n'}
+[10.640148] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__type_support.c\n'}
+[10.640197] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv\n'}
+[10.640259] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail\n'}
+[10.640311] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__rosidl_typesupport_introspection_c.h\n'}
+[10.640394] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__type_support.c\n'}
+[10.640455] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_typesupport_introspection_c.so\n'}
+[10.640516] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_typesupport_c.so\n'}
+[10.640580] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs\n'}
+[10.640643] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg\n'}
+[10.640710] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/test.hpp\n'}
+[10.640772] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail\n'}
+[10.640831] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__struct.hpp\n'}
+[10.640893] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__builder.hpp\n'}
+[10.640961] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__traits.hpp\n'}
+[10.641024] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv\n'}
+[10.641107] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail\n'}
+[10.641169] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__struct.hpp\n'}
+[10.641232] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__traits.hpp\n'}
+[10.641305] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__builder.hpp\n'}
+[10.641367] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/find_norm.hpp\n'}
+[10.641418] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs\n'}
+[10.641477] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg\n'}
+[10.641526] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail\n'}
+[10.641590] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.641640] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__type_support.cpp\n'}
+[10.641695] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv\n'}
+[10.641756] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail\n'}
+[10.641806] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__type_support.cpp\n'}
+[10.641869] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.641919] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[10.641984] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_typesupport_cpp.so\n'}
+[10.642060] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/msg/Test.idl\n'}
+[10.642121] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/srv/FindNorm.idl\n'}
+[10.642210] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/msg/Test.msg\n'}
+[10.642276] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/srv/FindNorm.srv\n'}
+[10.642339] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/srv/FindNorm_Request.msg\n'}
+[10.642451] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/srv/FindNorm_Response.msg\n'}
+[10.642524] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include\n'}
+[10.642575] (test1_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs\n'}
+[10.642624] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/visibility_control.h\n'}
+[10.642673] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs_matlab.so\n'}
+[10.649819] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m/\n'}
+[10.650122] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros\n'}
+[10.650260] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal\n'}
+[10.650330] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2\n'}
+[10.650396] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages\n'}
+[10.650461] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+test1_msgs\n'}
+[10.650511] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+test1_msgs/test1_msgs_msg_Test_2To1_Converter.m\n'}
+[10.650571] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+test1_msgs/test.m\n'}
+[10.650621] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+test1_msgs/findNormRequest.m\n'}
+[10.650683] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+test1_msgs/test1_msgs_msg_Test_1To2_Converter.m\n'}
+[10.650733] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+test1_msgs/findNormResponse.m\n'}
+[10.650795] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/test1_msgs\n'}
+[10.650864] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/test1_msgs\n'}
+[10.650913] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/environment/ament_prefix_path.sh\n'}
+[10.650975] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/environment/ament_prefix_path.dsv\n'}
+[10.651094] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/environment/path.sh\n'}
+[10.651227] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/environment/path.dsv\n'}
+[10.651312] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/local_setup.bash\n'}
+[10.651405] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/local_setup.sh\n'}
+[10.651480] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/local_setup.zsh\n'}
+[10.651571] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/local_setup.dsv\n'}
+[10.651656] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/package.dsv\n'}
+[10.651856] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/test1_msgs\n'}
+[10.652008] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_generator_cExport.cmake\n'}
+[10.652102] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_generator_cExport-release.cmake\n'}
+[10.652196] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.652290] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[10.652383] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_cExport.cmake\n'}
+[10.652473] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[10.652573] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_generator_cppExport.cmake\n'}
+[10.652675] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.652767] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[10.652865] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[10.652960] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[10.653049] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[10.653135] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.653221] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.653315] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.653403] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.653490] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.653612] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.653700] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgsConfig.cmake\n'}
+[10.653770] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgsConfig-version.cmake\n'}
+[10.653852] (test1_msgs) StdoutLine: {'line': b'-- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/package.xml\n'}
+[10.654986] (test1_msgs) CommandEnded: {'returncode': 0}
+[10.727884] (-) TimerEvent: {}
+[10.730047] (test1_msgs) JobEnded: {'identifier': 'test1_msgs', 'rc': 0}
+[10.730782] (-) EventReactorShutdown: {}

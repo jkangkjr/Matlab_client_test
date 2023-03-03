@@ -1,0 +1,211 @@
+[0.020s] Invoking command in '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs': PS1=(venv) /home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin/cmake /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/src/test1_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed -DBUILD_TESTING=OFF -DCMAKE_CXX_FLAGS_RELEASE=-O0 -G Ninja -DCMAKE_INSTALL_PREFIX=/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install
+[0.077s] -- The C compiler identification is GNU 9.4.0
+[0.129s] -- The CXX compiler identification is GNU 9.4.0
+[0.137s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.264s] -- Found ament_cmake: 0.9.8 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)
+[0.287s] -- Found PythonInterp: /home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin/python3 (found suitable version "3.9.5", minimum required is "3") 
+[0.287s] -- Using PYTHON_EXECUTABLE: /home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin/python3
+[0.448s] -- Found ament_cmake_ros: 0.9.2 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)
+[0.456s] -- Found rosidl_typesupport_c: 1.0.2 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)
+[0.457s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.463s] -- Found rosidl_adapter: 1.2.1 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)
+[0.514s] -- Found FastRTPS: /home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/include  
+[0.587s] -- Found rosidl_typesupport_cpp: 1.0.2 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)
+[0.588s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.607s] -- Found rosidl_default_generators: 1.0.1 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)
+[0.611s] -- Found class_loader: 2.0.2 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/class_loader/cmake)
+[0.617s] -- Found rclcpp: 2.3.1 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)
+[0.665s] -- Found rmw_implementation_cmake: 1.0.3 (/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)
+[0.667s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.668s] -- Looking for pthread.h
+[0.712s] -- Looking for pthread.h - found
+[0.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.757s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.757s] -- Looking for pthread_create in pthreads
+[0.800s] -- Looking for pthread_create in pthreads - not found
+[0.800s] -- Looking for pthread_create in pthread
+[0.883s] -- Looking for pthread_create in pthread - found
+[0.885s] -- Found Threads: TRUE  
+[1.000s] -- Found PythonInterp: /home/jkang/.matlab/R2022b/ros2/glnxa64/venv/bin/python3 (found version "3.9.5") 
+[1.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.181s] -- Configuring done
+[1.198s] -- Generating done
+[1.207s] -- Build files have been written to: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs
+[1.213s] Invoked command in '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs' returned '0': PS1=(venv) /home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin/cmake /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/src/test1_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed -DBUILD_TESTING=OFF -DCMAKE_CXX_FLAGS_RELEASE=-O0 -G Ninja -DCMAKE_INSTALL_PREFIX=/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install
+[1.216s] Invoking command in '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs': PS1=(venv) /home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin/cmake --build /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs -- -j12 -l12
+[1.438s] [1/32] Generating C++ code for ROS interfaces
+[1.442s] [2/32] Generating C code for ROS interfaces
+[1.492s] [3/32] Building C object CMakeFiles/test1_msgs__rosidl_generator_c.dir/rosidl_generator_c/test1_msgs/msg/detail/test__functions.c.o
+[1.509s] [4/32] Building C object CMakeFiles/test1_msgs__rosidl_generator_c.dir/rosidl_generator_c/test1_msgs/srv/detail/find_norm__functions.c.o
+[1.527s] [5/32] Linking C shared library libtest1_msgs__rosidl_generator_c.so
+[1.624s] [6/32] Generating C++ type support dispatch for ROS interfaces
+[1.638s] [7/32] Generating C++ introspection for ROS interfaces
+[1.708s] [8/32] Generating C type support dispatch for ROS interfaces
+[1.718s] [9/32] Generating C++ type support for eProsima Fast-RTPS
+[1.730s] [10/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/test1_msgs/msg/test__type_support.cpp.o
+[1.741s] [11/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/test1_msgs/srv/find_norm__type_support.cpp.o
+[1.793s] [12/32] Linking CXX shared library libtest1_msgs__rosidl_typesupport_c.so
+[1.857s] [13/32] Generating C introspection for ROS interfaces
+[1.877s] [14/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test1_msgs/srv/find_norm__type_support.cpp.o
+[1.888s] [15/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test1_msgs/msg/detail/test__type_support.cpp.o
+[1.897s] [16/32] Building C object CMakeFiles/test1_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test1_msgs/msg/detail/test__type_support.c.o
+[1.907s] [17/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test1_msgs/srv/detail/find_norm__type_support.cpp.o
+[1.909s] [18/32] Building C object CMakeFiles/test1_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test1_msgs/srv/detail/find_norm__type_support.c.o
+[1.925s] [19/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test1_msgs/msg/test__type_support.cpp.o
+[1.935s] [20/32] Linking C shared library libtest1_msgs__rosidl_typesupport_introspection_c.so
+[1.973s] [21/32] Linking CXX shared library libtest1_msgs__rosidl_typesupport_introspection_cpp.so
+[2.001s] [22/32] Linking CXX shared library libtest1_msgs__rosidl_typesupport_cpp.so
+[2.133s] [23/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test1_msgs/msg/detail/dds_fastrtps/test__type_support.cpp.o
+[2.158s] [24/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test1_msgs/srv/detail/dds_fastrtps/find_norm__type_support.cpp.o
+[2.260s] [25/32] Linking CXX shared library libtest1_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.456s] [26/32] Generating C type support for eProsima Fast-RTPS
+[2.731s] [27/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test1_msgs/msg/detail/test__type_support_c.cpp.o
+[2.744s] [28/32] Building CXX object CMakeFiles/test1_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test1_msgs/srv/detail/find_norm__type_support_c.cpp.o
+[2.845s] [29/32] Linking CXX shared library libtest1_msgs__rosidl_typesupport_fastrtps_c.so
+[8.078s] [30/32] Building CXX object CMakeFiles/test1_msgs_matlab.dir/src/test1_msgs_Test_message.cpp.o
+[10.182s] [31/32] Building CXX object CMakeFiles/test1_msgs_matlab.dir/src/test1_msgs_FindNorm_service.cpp.o
+[10.612s] [32/32] Linking CXX shared library libtest1_msgs_matlab.so
+[10.613s] Invoked command in '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs' returned '0': PS1=(venv) /home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin/cmake --build /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs -- -j12 -l12
+[10.635s] Invoking command in '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs': PS1=(venv) /home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin/cmake --install /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs
+[10.636s] -- Install configuration: "Release"
+[10.637s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/test1_msgs
+[10.637s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs
+[10.637s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg
+[10.637s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/test.h
+[10.637s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.637s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail
+[10.637s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__functions.c
+[10.637s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__functions.h
+[10.637s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__type_support.h
+[10.637s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__struct.h
+[10.637s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv
+[10.638s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail
+[10.638s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__type_support.h
+[10.638s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__struct.h
+[10.638s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__functions.c
+[10.638s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__functions.h
+[10.638s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/find_norm.h
+[10.638s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/environment/library_path.sh
+[10.638s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/environment/library_path.dsv
+[10.638s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_generator_c.so
+[10.638s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs
+[10.638s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg
+[10.638s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail
+[10.639s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__rosidl_typesupport_fastrtps_c.h
+[10.639s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.639s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv
+[10.639s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail
+[10.639s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__rosidl_typesupport_fastrtps_c.h
+[10.639s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_typesupport_fastrtps_c.so
+[10.639s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs
+[10.639s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg
+[10.639s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail
+[10.639s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp
+[10.639s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/dds_fastrtps
+[10.639s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.639s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv
+[10.639s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail
+[10.640s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__rosidl_typesupport_fastrtps_cpp.hpp
+[10.640s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/dds_fastrtps
+[10.640s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.640s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs
+[10.640s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg
+[10.640s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.640s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail
+[10.640s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__rosidl_typesupport_introspection_c.h
+[10.640s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__type_support.c
+[10.640s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv
+[10.640s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail
+[10.640s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__rosidl_typesupport_introspection_c.h
+[10.640s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__type_support.c
+[10.640s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_typesupport_introspection_c.so
+[10.640s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_typesupport_c.so
+[10.641s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs
+[10.641s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg
+[10.641s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/test.hpp
+[10.641s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail
+[10.641s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__struct.hpp
+[10.641s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__builder.hpp
+[10.641s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__traits.hpp
+[10.641s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv
+[10.641s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail
+[10.641s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__struct.hpp
+[10.641s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__traits.hpp
+[10.641s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__builder.hpp
+[10.641s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/find_norm.hpp
+[10.641s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs
+[10.641s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg
+[10.641s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail
+[10.641s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp
+[10.642s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/msg/detail/test__type_support.cpp
+[10.642s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv
+[10.642s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail
+[10.642s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__type_support.cpp
+[10.642s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/srv/detail/find_norm__rosidl_typesupport_introspection_cpp.hpp
+[10.642s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_typesupport_introspection_cpp.so
+[10.642s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs__rosidl_typesupport_cpp.so
+[10.642s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/msg/Test.idl
+[10.642s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/srv/FindNorm.idl
+[10.642s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/msg/Test.msg
+[10.642s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/srv/FindNorm.srv
+[10.642s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/srv/FindNorm_Request.msg
+[10.642s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/srv/FindNorm_Response.msg
+[10.642s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include
+[10.642s] -- Up-to-date: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs
+[10.643s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/include/test1_msgs/visibility_control.h
+[10.643s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/lib/libtest1_msgs_matlab.so
+[10.650s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m/
+[10.650s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros
+[10.650s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal
+[10.650s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2
+[10.650s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages
+[10.650s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+test1_msgs
+[10.650s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+test1_msgs/test1_msgs_msg_Test_2To1_Converter.m
+[10.650s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+test1_msgs/test.m
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+test1_msgs/findNormRequest.m
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+test1_msgs/test1_msgs_msg_Test_1To2_Converter.m
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+test1_msgs/findNormResponse.m
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/test1_msgs
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/test1_msgs
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/environment/ament_prefix_path.sh
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/environment/ament_prefix_path.dsv
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/environment/path.sh
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/environment/path.dsv
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/local_setup.bash
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/local_setup.sh
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/local_setup.zsh
+[10.651s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/local_setup.dsv
+[10.652s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/package.dsv
+[10.652s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/test1_msgs
+[10.652s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_generator_cExport.cmake
+[10.652s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_generator_cExport-release.cmake
+[10.652s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.652s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[10.652s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_cExport.cmake
+[10.652s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_cExport-release.cmake
+[10.652s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_generator_cppExport.cmake
+[10.653s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.653s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[10.653s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_cppExport.cmake
+[10.653s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgs__rosidl_typesupport_cppExport-release.cmake
+[10.653s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/rosidl_cmake-extras.cmake
+[10.653s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.653s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.653s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.653s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.653s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.654s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.654s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgsConfig.cmake
+[10.654s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/cmake/test1_msgsConfig-version.cmake
+[10.654s] -- Installing: /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/install/share/test1_msgs/package.xml
+[10.657s] Invoked command in '/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs' returned '0': PS1=(venv) /home/jkang/MATLAB/R2022b/bin/glnxa64/cmake/bin/cmake --install /home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs

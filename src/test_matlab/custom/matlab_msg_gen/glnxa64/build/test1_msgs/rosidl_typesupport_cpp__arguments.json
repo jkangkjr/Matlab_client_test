@@ -1,10 +1,10 @@
 {
   "package_name": "test1_msgs",
-  "output_dir": "/home/jkang/ros2_workspace/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_typesupport_cpp/test1_msgs",
+  "output_dir": "/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_typesupport_cpp/test1_msgs",
   "template_dir": "/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/jkang/ros2_workspace/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_adapter/test1_msgs:msg/Test.idl",
-    "/home/jkang/ros2_workspace/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_adapter/test1_msgs:srv/FindNorm.idl"
+    "/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_adapter/test1_msgs:msg/Test.idl",
+    "/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_adapter/test1_msgs:srv/FindNorm.idl"
   ],
   "target_dependencies": [
     "/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
@@ -13,7 +13,7 @@
     "/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/home/jkang/MATLAB/R2022b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/jkang/ros2_workspace/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_adapter/test1_msgs/msg/Test.idl",
-    "/home/jkang/ros2_workspace/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_adapter/test1_msgs/srv/FindNorm.idl"
+    "/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_adapter/test1_msgs/msg/Test.idl",
+    "/home/jkang/Matlab_client_test/src/test_matlab/custom/matlab_msg_gen/glnxa64/build/test1_msgs/rosidl_adapter/test1_msgs/srv/FindNorm.idl"
   ]
 }
