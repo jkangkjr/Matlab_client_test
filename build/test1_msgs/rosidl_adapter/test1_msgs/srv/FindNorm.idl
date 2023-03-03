@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from test1_msgs/srv/FindNorm.srv
+// generated code does not contain a copyright notice
+
+#include "test1_msgs/msg/Test.idl"
+
+module test1_msgs {
+  module srv {
+    struct FindNorm_Request {
+      test1_msgs::msg::Test input;
+    };
+    struct FindNorm_Response {
+      test1_msgs::msg::Test norm;
+    };
+  };
+};

@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from test1_msgs/msg/Test.msg
+// generated code does not contain a copyright notice
+
+
+module test1_msgs {
+  module msg {
+    struct Test {
+      double num;
+    };
+  };
+};

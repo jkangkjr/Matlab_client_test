@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/test_srvcli/test_srvcli.egg-info
+writing ../../build/test_srvcli/test_srvcli.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_srvcli/test_srvcli.egg-info/dependency_links.txt
+writing entry points to ../../build/test_srvcli/test_srvcli.egg-info/entry_points.txt
+writing requirements to ../../build/test_srvcli/test_srvcli.egg-info/requires.txt
+writing top-level names to ../../build/test_srvcli/test_srvcli.egg-info/top_level.txt
+writing manifest file '../../build/test_srvcli/test_srvcli.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_srvcli/test_srvcli.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_srvcli/test_srvcli.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jkang/Matlab_client_test/build/test_srvcli/build
+creating /home/jkang/Matlab_client_test/build/test_srvcli/build/lib
+creating /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli
+copying test_srvcli/srvcli_member_function.py -> /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli
+copying test_srvcli/client.py -> /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli
+copying test_srvcli/__init__.py -> /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli
+copying test_srvcli/server.py -> /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli
+running install
+running install_lib
+creating /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli
+copying /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli/srvcli_member_function.py -> /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli
+copying /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli/client.py -> /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli
+copying /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli/__init__.py -> /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli
+copying /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli/server.py -> /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli
+byte-compiling /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli/srvcli_member_function.py to srvcli_member_function.cpython-38.pyc
+byte-compiling /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli/client.py to client.cpython-38.pyc
+byte-compiling /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli/server.py to server.cpython-38.pyc
+running install_data
+creating /home/jkang/Matlab_client_test/install/test_srvcli/share/ament_index
+creating /home/jkang/Matlab_client_test/install/test_srvcli/share/ament_index/resource_index
+creating /home/jkang/Matlab_client_test/install/test_srvcli/share/ament_index/resource_index/packages
+copying resource/test_srvcli -> /home/jkang/Matlab_client_test/install/test_srvcli/share/ament_index/resource_index/packages
+copying package.xml -> /home/jkang/Matlab_client_test/install/test_srvcli/share/test_srvcli
+running install_egg_info
+Copying ../../build/test_srvcli/test_srvcli.egg-info to /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli-0.0.0-py3.8.egg-info
+running install_scripts
+Installing client script to /home/jkang/Matlab_client_test/install/test_srvcli/lib/test_srvcli
+Installing server script to /home/jkang/Matlab_client_test/install/test_srvcli/lib/test_srvcli
+writing list of installed files to '/home/jkang/Matlab_client_test/build/test_srvcli/install.log'

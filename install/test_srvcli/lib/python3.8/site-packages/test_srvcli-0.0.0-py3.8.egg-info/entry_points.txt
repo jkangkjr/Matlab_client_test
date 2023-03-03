@@ -1,0 +1,3 @@
+[console_scripts]
+client = test_srvcli.client:main
+server = test_srvcli.server:main

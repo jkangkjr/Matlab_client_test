@@ -1,0 +1,30 @@
+[0.882s] Invoking command in '/home/jkang/Matlab_client_test/src/test_srvcli': PYTHONPATH=/home/jkang/Matlab_client_test/build/test_srvcli/prefix_override:/home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_srvcli build --build-base /home/jkang/Matlab_client_test/build/test_srvcli/build install --record /home/jkang/Matlab_client_test/build/test_srvcli/install.log --single-version-externally-managed
+[1.152s] running egg_info
+[1.163s] writing ../../build/test_srvcli/test_srvcli.egg-info/PKG-INFO
+[1.163s] writing dependency_links to ../../build/test_srvcli/test_srvcli.egg-info/dependency_links.txt
+[1.163s] writing entry points to ../../build/test_srvcli/test_srvcli.egg-info/entry_points.txt
+[1.164s] writing requirements to ../../build/test_srvcli/test_srvcli.egg-info/requires.txt
+[1.164s] writing top-level names to ../../build/test_srvcli/test_srvcli.egg-info/top_level.txt
+[1.211s] reading manifest file '../../build/test_srvcli/test_srvcli.egg-info/SOURCES.txt'
+[1.212s] writing manifest file '../../build/test_srvcli/test_srvcli.egg-info/SOURCES.txt'
+[1.212s] running build
+[1.212s] running build_py
+[1.213s] copying test_srvcli/srvcli_member_function.py -> /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli
+[1.213s] copying test_srvcli/client.py -> /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli
+[1.213s] running install
+[1.214s] /home/jkang/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.214s]   warnings.warn(
+[1.218s] running install_lib
+[1.229s] copying /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli/srvcli_member_function.py -> /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli
+[1.229s] copying /home/jkang/Matlab_client_test/build/test_srvcli/build/lib/test_srvcli/client.py -> /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli
+[1.230s] byte-compiling /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli/srvcli_member_function.py to srvcli_member_function.cpython-38.pyc
+[1.230s] byte-compiling /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli/client.py to client.cpython-38.pyc
+[1.230s] running install_data
+[1.241s] running install_egg_info
+[1.252s] removing '/home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[1.252s] Copying ../../build/test_srvcli/test_srvcli.egg-info to /home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages/test_srvcli-0.0.0-py3.8.egg-info
+[1.254s] running install_scripts
+[1.303s] Installing client script to /home/jkang/Matlab_client_test/install/test_srvcli/lib/test_srvcli
+[1.303s] Installing server script to /home/jkang/Matlab_client_test/install/test_srvcli/lib/test_srvcli
+[1.304s] writing list of installed files to '/home/jkang/Matlab_client_test/build/test_srvcli/install.log'
+[1.332s] Invoked command in '/home/jkang/Matlab_client_test/src/test_srvcli' returned '0': PYTHONPATH=/home/jkang/Matlab_client_test/build/test_srvcli/prefix_override:/home/jkang/Matlab_client_test/install/test_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_srvcli build --build-base /home/jkang/Matlab_client_test/build/test_srvcli/build install --record /home/jkang/Matlab_client_test/build/test_srvcli/install.log --single-version-externally-managed
