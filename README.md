@@ -6,7 +6,6 @@ This repo tries to set the project in FBG_MATLAB on ROS2
 Place ros2 .msg file in ./needle_simulation_control/custom/package_name/msg
 
 Place ros2 .srv file in ./needle_simulation_control/custom/package_name/srv
-
 ##Automatically remove and auto build the matlab_ros2 workspace
 
     generate_ros2msg(pwd)
