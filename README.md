@@ -17,7 +17,7 @@ test_matlabros_class.m
 
 test_MatlabRosSrvCli.m
 
-##Usage
+#Usage
 
 Publisher node: 
 
@@ -37,7 +37,7 @@ Or using launch file:
 
     ro2 launch curvature_srvcli curvature_launch.xml
 
-##Other executable:
+#Other executable:
 
 Client node:
 
